@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@tonclient/core": "^1.8.0",
+        "@tonclient/lib-web": "^1.8.0",
+        "@vuex-orm/core": "^0.36.3",
+        "file-saver": "^2.0.5",
+        "vue": "^2.6.12",
+        "vue-i18n": "^8.22.4",
+        "vue-router": "^3.5.1",
+        "vuetify": "^2.4.4",
+        "vuex": "^3.6.2",
+        "xlsx": "^0.16.9"
+    },
+    "babel": {
+        "plugins": [
+            "@babel/plugin-proposal-class-properties"
+        ]
+    }
+}
